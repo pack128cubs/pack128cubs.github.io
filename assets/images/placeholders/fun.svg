@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Placeholder: Pack meeting games">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9d174d"/><stop offset="1" stop-color="#f472b6"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="3">
+    <path d="M0 450 L200 300 L400 450 L600 240 L800 450"/>
+  </g>
+  <text x="50%" y="50%" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-weight="700" font-size="50" fill="#ffffff" fill-opacity=".9">PHOTO PLACEHOLDER</text>
+  <text x="50%" y="50%" dy="66" text-anchor="middle" font-family="Roboto, Arial, sans-serif" font-size="37" fill="#ffffff" fill-opacity=".8">Pack meeting games</text>
+</svg>

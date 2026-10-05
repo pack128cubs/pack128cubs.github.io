@@ -1,0 +1,320 @@
+# Pack 128 events, 2026-27 program year
+# Sources: "2026-2027 Pack Meetings_Events" planning sheet, updated where the
+# October 2026 committee minutes are newer (campout location, October roundtable
+# date, district campout). Replace with the pack's Google Calendar once it is
+# connected (see README.md).
+#
+# Format:
+#   - title: Event name
+#     start: 2026-10-22            all-day event, or
+#     start: 2026-11-01 17:00      timed event (24-hour clock, no seconds)
+#     end:   last day (all-day) or end time (timed). Optional.
+#     location: shown publicly unless audience is "members"
+#     description: plain text or simple HTML
+#     audience: public (default) or members (den events; hides the location)
+#
+# Never list a youth's name, or anyone's personal phone or email, here.
+
+# ---------------------------------------------------------------- August 2026
+- title: Pack Committee Meeting
+  start: 2026-08-09 17:00
+  end: 2026-08-09 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: St. Mary Fall Festival
+  start: 2026-08-16
+  location: St. Mary Parish, Sacramento, CA
+  description: Pack 128 runs skills stations and a Raingutter Regatta. Come say hello and bring a friend who might like Scouting.
+
+- title: Scout Day at the Sacramento Zoo (Lions and Tigers)
+  start: 2026-08-30
+  location: Sacramento Zoo, Sacramento, CA
+  description: Lions earn Mountain Lion and Tigers earn Tiger in the Wild. Register through the Sacramento Zoo.
+
+- title: Pack Meeting — Pizza and Family Swim
+  start: 2026-08-30 13:00
+  end: 2026-08-30 16:00
+  location: College Greens Cabana Club, Sacramento, CA
+  description: The first pack meeting of the year. Pizza, a family swim, and a chance to earn the Swimming adventure.
+
+# ------------------------------------------------------------- September 2026
+- title: Scout Day at the Sacramento Zoo (Wolves)
+  start: 2026-09-13
+  location: Sacramento Zoo, Sacramento, CA
+  description: Wolves work on Paws on the Path. Register through the Sacramento Zoo.
+
+- title: Pack Committee Meeting
+  start: 2026-09-13 17:00
+  end: 2026-09-13 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Scout Day at the Sacramento Zoo (Bears)
+  start: 2026-09-20
+  location: Sacramento Zoo, Sacramento, CA
+  description: Bears work on Super Science. Register through the Sacramento Zoo.
+
+- title: Pack Meeting
+  start: 2026-09-24 18:00
+  end: 2026-09-24 19:00
+  location: Glenn Hall Park, Sacramento, CA
+  description: Outdoor pack meeting at the park.
+
+# --------------------------------------------------------------- October 2026
+- title: Pack Committee Meeting
+  start: 2026-10-04 17:00
+  end: 2026-10-04 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Fall Family Campout
+  start: 2026-10-09
+  end: 2026-10-11
+  location: Hornswoggle Group Campground, Camptonville, CA
+  description: >-
+    Camp one or both nights, or come up for the day on Saturday. Knot tying, a
+    Da Vinci bridge build, campfire cobbler and a flag retirement ceremony.
+    Registration, the weekend schedule and what to bring are in the Scoutbook email.
+
+- title: Three Rivers District Roundtable
+  start: 2026-10-15 19:00
+  end: 2026-10-15 21:00
+  location: St. Anthony Parish, 660 Florin Road, Sacramento, CA
+  description: >-
+    Monthly gathering for leaders and interested parents: district news,
+    upcoming events, and hands-on ideas to bring back to the dens. Zoom is available.
+
+- title: Placer District Cub Fun Day
+  start: 2026-10-17
+  location: Elverta, CA
+  description: Council event. Register through the Golden Empire Council website.
+
+- title: October Pack Meeting
+  start: 2026-10-22 18:30
+  end: 2026-10-22 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: >-
+    Halloween edition: Scouts are welcome to wear costumes for the costume
+    parade, then dens build toilet-paper mummies for a game of blob tag. Sock
+    Drive kickoff. Hot dog sales start at 6 pm.
+
+- title: Cub Leader Basic Training
+  start: 2026-10-24
+  location: Dry Creek Ranch House, Elverta, CA
+  description: Council training for new den leaders and committee members.
+
+# -------------------------------------------------------------- November 2026
+- title: Pack Committee Meeting
+  start: 2026-11-01 17:00
+  end: 2026-11-01 19:00
+  location: Giovanni Hall, St. Mary Parish, Sacramento, CA
+  description: >-
+    Program planning for upcoming meetings and events. All parents are welcome,
+    and it is the best way to see how the pack runs.
+
+- title: Three Rivers District Family Campout
+  start: 2026-11-06
+  end: 2026-11-08
+  location: Dry Creek Ranch House, Elverta, CA
+  description: District event. Register through the Golden Empire Council website.
+
+- title: Sock Drive
+  start: 2026-11-07
+  end: 2026-11-15
+  description: Pack service project. Bring your sock donations to the November pack meeting.
+
+- title: Veterans Day Parade
+  start: 2026-11-11
+  location: Sacramento, CA
+  description: Pack 128 marches in uniform. Meeting point and time to come.
+
+- title: University of Scouting
+  start: 2026-11-14
+  location: Davis, CA
+  description: A day of council training classes for adult leaders, with Den Chief training for older Scouts.
+
+- title: November Pack Meeting
+  start: 2026-11-19 18:30
+  end: 2026-11-19 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: >-
+    Flag retirement and Sock Drive collection, so bring your donations. Christmas
+    tree pickup sign-ups begin. Hot dog sales start at 6 pm.
+
+- title: Three Rivers District Roundtable
+  start: 2026-11-19 19:00
+  end: 2026-11-19 21:00
+  location: St. Anthony Parish, 660 Florin Road, Sacramento, CA
+  description: Monthly gathering for leaders and interested parents. Zoom is available.
+
+# -------------------------------------------------------------- December 2026
+- title: Pack Committee Meeting
+  start: 2026-12-06 17:00
+  end: 2026-12-06 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: December Pack Meeting
+  start: 2026-12-17 18:30
+  end: 2026-12-17 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: Hot dog sales start at 6 pm.
+
+- title: Three Rivers District Roundtable
+  start: 2026-12-17 19:00
+  end: 2026-12-17 21:00
+  description: Monthly gathering for leaders and interested parents. Location to be announced.
+
+# --------------------------------------------------------------- January 2027
+- title: Christmas Tree Pickup
+  start: 2027-01-02
+  description: Christmas tree pickup day. Details and sign-ups at the November and December pack meetings.
+
+- title: Pack Committee Meeting
+  start: 2027-01-10 17:00
+  end: 2027-01-10 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Three Rivers District Roundtable
+  start: 2027-01-21 19:00
+  end: 2027-01-21 21:00
+  description: Monthly gathering for leaders and interested parents. Location to be announced.
+
+- title: January Pack Meeting
+  start: 2027-01-28 18:30
+  end: 2027-01-28 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: Pinewood Derby car kits are handed out. Hot dog sales start at 6 pm.
+
+# -------------------------------------------------------------- February 2027
+- title: Fairytale Town Scout Day (tentative)
+  start: 2027-02-07
+  location: Fairytale Town, Sacramento, CA
+  description: Free admission for Scouts in uniform, timed with Scouting's birthday. Date still to be confirmed.
+
+- title: Pack Committee Meeting
+  start: 2027-02-07 17:00
+  end: 2027-02-07 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Three Rivers District Roundtable
+  start: 2027-02-18 19:00
+  end: 2027-02-18 21:00
+  description: Monthly gathering for leaders and interested parents. Location to be announced.
+
+- title: February Pack Meeting — Blue and Gold (tentative)
+  start: 2027-02-25 18:30
+  end: 2027-02-25 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: >-
+    Blue and Gold celebration and Pinewood Derby car weigh-in. Hot dog sales
+    start at 6 pm. The date follows the Pinewood Derby and may move.
+
+# ----------------------------------------------------------------- March 2027
+- title: Pinewood Derby
+  start: 2027-03-06
+  location: St. Mary Parish, Sacramento, CA
+  description: Race day.
+
+- title: Scouting for Food — Flier Drop
+  start: 2027-03-06
+  description: Scouts hang food drive fliers on doors around the neighborhood.
+
+- title: Pack Committee Meeting
+  start: 2027-03-07 17:00
+  end: 2027-03-07 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Scouting for Food — Pickup
+  start: 2027-03-13
+  description: Scouts return to collect the food donations left out by neighbors.
+
+- title: March Pack Meeting
+  start: 2027-03-18 18:30
+  end: 2027-03-18 19:30
+  location: St. Mary Parish, Sacramento, CA
+  description: Arrow of Light Scouts may bridge to Scouts BSA at this meeting. Hot dog sales start at 6 pm.
+
+- title: Three Rivers District Awards Night
+  start: 2027-03-18
+  description: District recognition evening for leaders. Time and location to be announced.
+
+# ----------------------------------------------------------------- April 2027
+- title: Pack Committee Meeting
+  start: 2027-04-04 17:00
+  end: 2027-04-04 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: Range and Target Day
+  start: 2027-04-09
+  end: 2027-04-11
+  description: Council event. Register through the Golden Empire Council website.
+
+- title: Three Rivers District Roundtable
+  start: 2027-04-15 19:00
+  end: 2027-04-15 21:00
+  description: Monthly gathering for leaders and interested parents. Location to be announced.
+
+- title: BALOO Training
+  start: 2027-04-17
+  description: Council outdoor-leader training for adults who help run pack campouts.
+
+- title: April Pack Meeting
+  start: 2027-04-22 18:30
+  end: 2027-04-22 19:30
+  location: Glenn Hall Park, Sacramento, CA
+  description: Outdoor pack meeting at the park. St. Mary Parish is the backup location.
+
+# ------------------------------------------------------------------- May 2027
+- title: Pack Committee Meeting
+  start: 2027-05-02 17:00
+  end: 2027-05-02 19:00
+  location: St. Mary Parish, Sacramento, CA
+  description: Program planning for upcoming meetings and events. All parents are welcome.
+
+- title: May Pack Meeting — Rank Advancement
+  start: 2027-05-20 18:30
+  end: 2027-05-20 19:30
+  location: Glenn Hall Park, Sacramento, CA
+  description: Scouts move up to their next rank. Outdoor meeting at the park; St. Mary Parish is the backup location.
+
+- title: Three Rivers District Roundtable
+  start: 2027-05-20 19:00
+  end: 2027-05-20 21:00
+  description: Monthly gathering for leaders and interested parents. Location to be announced.
+
+# ------------------------------------------------------------------ June 2027
+- title: Annual Planning Meeting
+  start: 2027-06-06 17:00
+  end: 2027-06-06 19:00
+  location: Giovanni's Old World Pizza, Sacramento, CA
+  description: Leaders and parents plan the 2027-28 program year.
+
+- title: Camp Winton, Cub Session 1
+  start: 2027-06-20
+  end: 2027-06-23
+  location: Camp Winton
+  description: Golden Empire Council summer camp. Save the date.
+
+- title: Camp Winton, Cub Session 2
+  start: 2027-06-23
+  end: 2027-06-26
+  location: Camp Winton
+  description: Golden Empire Council summer camp. Save the date.
+
+- title: Camp Winton, Cub Session 3
+  start: 2027-06-27
+  end: 2027-06-30
+  location: Camp Winton
+  description: Golden Empire Council summer camp. Save the date.
+
+- title: Camp Winton, Webelos and Arrow of Light Session
+  start: 2027-06-30
+  end: 2027-07-03
+  location: Camp Winton
+  description: Golden Empire Council summer camp for Webelos and Arrow of Light Scouts. Save the date.

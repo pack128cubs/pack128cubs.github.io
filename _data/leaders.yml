@@ -1,0 +1,48 @@
+# Pack 128 Leaders
+# Source: October 2026 committee meeting minutes.
+# Format:
+#   - name: First name and last initial only, or "TBD" for a vacant position
+#     role: Leadership role
+#     image: Path to a square portrait (optional; a blank avatar is used otherwise).
+#            Den leaders use their den's mascot from assets/images/leaders/.
+#
+# Confirm with each leader before the site goes public.
+
+- name: Kelly G.
+  role: Committee Chair
+
+- name: TBD
+  role: Cubmaster
+
+- name: Veronica T.
+  role: Secretary, Den Leader (Tigers)
+  image: /assets/images/leaders/tiger.png
+
+- name: Jeff P.
+  role: Treasurer, Registrar
+
+- name: Matt D.
+  role: Chartered Organization Representative, Den Leader (Wolves)
+  image: /assets/images/leaders/wolf.png
+
+- name: Paul G.
+  role: New Member Coordinator, Den Leader (Arrow of Light)
+  image: /assets/images/leaders/arrow-of-light.png
+
+- name: Kristen B.
+  role: Advancement Chair
+
+- name: Norm T.
+  role: Training Chair, Den Leader (Bears)
+  image: /assets/images/leaders/bear.png
+
+- name: Ella C.
+  role: Quartermaster, Den Leader (Webelos)
+  image: /assets/images/leaders/webelos.png
+
+- name: Pete C.
+  role: Den Leader (Lions)
+  image: /assets/images/leaders/lion.png
+
+- name: You?
+  role: Assistant den leaders and a fundraising chair wanted

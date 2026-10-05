@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# robots.txt for the Pack {{ site.pack.number }} website
+User-agent: *
+{% if site.draft_banner %}Disallow: /
+{% else %}Allow: /
+{% endif %}

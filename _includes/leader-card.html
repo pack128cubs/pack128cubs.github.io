@@ -1,0 +1,14 @@
+{% comment %}
+Leader card partial - a reusable component for displaying a single leader
+Parameters:
+- leader: Leader object from site.data.leaders
+{% endcomment %}
+{%- assign portrait = include.leader.image | default: '/assets/images/leaders/blank.png' -%}
+
+<div class="flex items-center gap-4 p-4 rounded-xl ring-1 ring-slate-200">
+  <img src="{{ portrait | relative_url }}" alt="" class="object-cover w-16 h-16 rounded-full ring-cub-gold ring-2" loading="lazy" decoding="async">
+  <div>
+    <p class="font-semibold">{{ include.leader.name }}</p>
+    <p class="text-sm text-slate-600">{{ include.leader.role }}</p>
+  </div>
+</div>

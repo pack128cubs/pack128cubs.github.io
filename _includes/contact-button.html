@@ -1,0 +1,12 @@
+{%- comment -%}
+Contact button: opens the pack's interest form when site.links.interest_form is
+set, otherwise starts an email to the pack.
+Parameters:
+- label: button text
+- class: CSS classes for the link
+{%- endcomment -%}
+{%- if site.links.interest_form and site.links.interest_form != "" -%}
+<a href="{{ site.links.interest_form }}" target="_blank" rel="noopener" class="{{ include.class }}">{{ include.label }}</a>
+{%- else -%}
+<a href="mailto:{{ site.email }}?subject=Question%20about%20Pack%20{{ site.pack.number }}" class="{{ include.class }}">{{ include.label }}</a>
+{%- endif -%}

@@ -1,0 +1,20 @@
+{%- comment -%}
+Event date line shared by the event layouts.
+Parameters:
+- ev: event object (Google Calendar shape)
+All-day events store the day after the last day as their end, so step back
+half a day before printing it.
+{%- endcomment -%}
+{%- assign ev = include.ev -%}
+{%- assign ev_iso = ev.start.dateTime | default: ev.start.date -%}
+{%- assign end_iso = ev.end.dateTime | default: ev.end.date -%}
+{%- if ev.start.date and ev.start.dateTime == nil and end_iso -%}
+  {%- assign end_iso = end_iso | date: "%s" | minus: 43200 | date: "%Y-%m-%d" -%}
+{%- endif -%}
+{%- assign ev_day = ev_iso | date: "%Y-%m-%d" -%}
+{%- assign end_day = end_iso | date: "%Y-%m-%d" -%}
+{{ ev_iso | date: "%a, %b %-d, %Y" }}
+{%- if end_iso and end_day != ev_day %} – {{ end_iso | date: "%a, %b %-d, %Y" }}{%- endif -%}
+{%- if ev.start.dateTime %} from {{ ev_iso | date: "%-I:%M %p" }}
+  {%- if ev.end.dateTime and end_day == ev_day %} to {{ end_iso | date: "%-I:%M %p" }}{%- endif -%}
+{%- endif -%}

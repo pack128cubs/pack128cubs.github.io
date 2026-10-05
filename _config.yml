@@ -1,0 +1,88 @@
+# Site settings
+# Accessed in templates as {{ site.title }}, {{ site.pack.city }}, and so on.
+#
+# This file is *NOT* reloaded automatically by `jekyll serve`. Restart the
+# server after changing it.
+
+title: Pack 128
+email: espack128@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Cub Scout Pack 128 of East Sacramento, California. Outdoor adventure, hands-on
+  projects, and community service for kindergarten through 5th grade, run by
+  parent volunteers and chartered by St. Mary School.
+baseurl: "" # the subpath of your site, e.g. /pack128-website (CI sets this itself)
+url: "" # the base hostname & protocol for your site, e.g. https://example.org
+timezone: America/Los_Angeles
+
+# Pack facts used across pages
+pack:
+  number: 128
+  city: Sacramento, CA
+  neighborhood: East Sacramento
+  council: Golden Empire Council
+  district: Three Rivers District
+  chartered_org: St. Mary School
+  program_year: "2026 — 27"
+
+# Outside services. Leave a value empty to hide its button / fall back to email.
+links:
+  interest_form: ""        # public URL of the "Cub Scout Pack 128 Interest Form" (Google Form)
+  volunteer_signup: https://signup.com/go/UczjvDP
+  scoutbook: https://scoutbook.scouting.org/
+  my_scouting: https://my.scouting.org/
+  council: https://www.gec-bsa.org/
+  medical_form: https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_AB.pdf
+  google_calendar: ""      # public Google Calendar ID, enables the "Subscribe" button
+
+# Brand marks live in assets/images/brand/, cut from the shirt art by
+# script/make-brand-marks.py. chest_mark picks the small mark used in the footer
+# and on the Register page:
+#   mark       round "Scouting the Sierras" chest emblem (final shirt art)
+#   mark-rect  rectangular mountain-and-icons version (August 2026 concept)
+brand:
+  chest_mark: mark
+
+# While true: shows a "draft preview" bar on every page and tells search
+# engines not to index the site. Set to false when the committee approves launch.
+draft_banner: true
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-tailwindcss
+  # - jekyll-google-calendar   # see "Google Calendar" in README.md
+
+# Events currently come from _data/events.yml (see _plugins/events_from_data.rb).
+# To pull them from Google Calendar instead, enable the plugin above, the gem in
+# the Gemfile, and this block. Public calendars use layout event-public; den
+# calendars use event-private, which hides the location.
+#
+# gcalendar:
+#   key_file: ./gcalendar-key.json
+#   calendars:
+#     - name: 🐾 Pack 128
+#       id: <calendar-id>@group.calendar.google.com
+#       directory: events
+#       layout: event-public
+#       date_format: "%Y-%m-%d"
+#       look_ahead: 365
+
+# Exclude from processing.
+# Jekyll's built-in defaults exclude Gemfile, Gemfile.lock, node_modules,
+# and vendor/. Anything listed here is added on top of those.
+exclude:
+  - gcalendar-key.json  # Google service account key — must NOT be published
+  - CLAUDE.md           # Claude Code project instructions
+  - README.md           # repo README
+  - LICENSE
+  - script/             # build/deploy helper scripts
+  - docs/               # internal notes
+  - brand-source/       # original artwork files, kept out of the site and out of git
+  - .claude/
+  - .github/
+  - .ruby-lsp/
+  - .ruby-version
+  - .sass-cache/
+  - .jekyll-cache/

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" width="1920" height="900" role="img" aria-label="Placeholder: Pack 128 campout or hike (wide)">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b3d2e"/><stop offset="1" stop-color="#1f6f54"/></linearGradient></defs>
+  <rect width="1920" height="900" fill="url(#g)"/>
+  <path d="M0 900 L0 640 L260 420 L470 600 L760 300 L1050 620 L1300 460 L1560 680 L1740 560 L1920 700 L1920 900 Z" fill="#ffffff" fill-opacity=".07"/>
+  <path d="M0 900 L0 760 L330 600 L640 760 L980 560 L1290 780 L1600 640 L1920 800 L1920 900 Z" fill="#000000" fill-opacity=".18"/>
+  <text x="1880" y="870" text-anchor="end" font-family="Roboto, Arial, sans-serif" font-size="26" fill="#ffffff" fill-opacity=".75">Photo placeholder: Pack 128 campout or hike (wide)</text>
+</svg>
